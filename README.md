@@ -7,6 +7,7 @@ Based on HTML4 Tags
 1.2 - Image with multiple clickable links
 1.3 - Tables
 1.4 - Live syllabus using Iframe 
+1.5 - Forms
 
 Practical 1
 HTML Tags

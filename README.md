@@ -6,7 +6,7 @@ Based on HTML4 Tags
 1.1 - Anchor Tag Usage
 1.2 - Image with multiple clickable links
 1.3 - Tables
-1.4 - Iframe usage
+1.4 - Live syllabus using Iframe 
 
 Practical 1
 HTML Tags

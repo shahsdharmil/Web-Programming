@@ -9,5 +9,5 @@ Based on HTML4 Tags
 1.4 - Live syllabus using Iframe 
 1.5 - Forms
 
-Practical 1
-HTML Tags
+Practical - 1
+Basic HTML Tags

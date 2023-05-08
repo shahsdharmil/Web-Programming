@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practical 2</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+
+      table.table-1 td {
+        width: 33.3%;
+        vertical-align: top;
+      }
+
+      table.table-2 td,
+      table.table-3 td {
+        text-align: center;
+        width: 25%;
+      }
+
+      table.table-4 td {
+        text-align: center;
+        width: 14.28%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table class="table-1" border="1px" cellpadding="10px">
+      <tr>
+        <td colspan="2">January</td>
+        <td>February</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">March</td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table class="table-2" border="1px" cellpadding="10px">
+      <tr>
+        <td colspan="4">India</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Australia</td>
+        <td colspan="2">USA</td>
+        <td>Spain</td>
+      </tr>
+
+      <tr>
+        <td>Switzerland</td>
+        <td>Italy</td>
+        <td rowspan="2">Japan</td>
+      </tr>
+
+      <tr>
+        <td>China</td>
+        <td>Myanmar</td>
+        <td>South Korea</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table class="table-3" border="1px" cellpadding="10px">
+      <tr>
+        <td colspan="4">A</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">B</td>
+        <td colspan="2">C</td>
+        <td>D</td>
+      </tr>
+
+      <tr>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+
+      <tr>
+        <td>H</td>
+        <td>I</td>
+        <td colspan="2">J</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <table class="table-4" border="1px" cellpadding="10px">
+      <tr>
+        <td rowspan="3">A</td>
+        <td>B</td>
+        <td colspan="2">C</td>
+        <td>D</td>
+        <td colspan="2" rowspan="2">E</td>
+      </tr>
+
+      <tr>
+        <td>F</td>
+        <td>G</td>
+        <td rowspan="3">H</td>
+        <td>I</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">J</td>
+        <td>K</td>
+        <td>L</td>
+        <td>M</td>
+        <td>N</td>
+      </tr>
+
+      <tr>
+        <td>O</td>
+        <td>P</td>
+        <td colspan="3">Q</td>
+      </tr>
+    </table>
+  </body>
+</html>

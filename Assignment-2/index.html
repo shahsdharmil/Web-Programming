@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #div1,
+        #div2 {
+            width: 100px;
+            height: 35px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Audio </h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+    <h2>Video</h2>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    <h2>You Tube Video</h2>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    <hr>
+    <h2>Plug-in</h2>
+    <object width="500" height="500" 
+        data="https://drscdn.500px.org/photo/1064143983/q%3D80_m%3D1000/v2?sig=0d7c7258c7d0a390bf23f5c4fb55e2503fb2d83bef3d996c5cd097a987e7a375"></object>
+    <hr>
+    <h2>Drag and Drop</h2>
+    <p>Drag the image back and forth between the two div elements.</p>
+    <div>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://plus.unsplash.com/premium_photo-1674935665931-4abca0787202?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                draggable="true" ondragstart="drag(event)" id="drag1" width="100" height="35">
+        </div>
+
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <hr>
+    <h2>Geolocation</h2>
+    <p>Click the button to get your coordinates.</p>
+    <button onclick="getLocation()">Try It</button>
+    <p id="demo"></p>
+</body>
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+    }
+    var x = document.getElementById("demo");
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+    }
+</script>
+
+</html>

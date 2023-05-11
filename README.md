@@ -20,3 +20,12 @@ Html Tags
 
 Practical - 1.2
 Lists And Tables
+
+Practical - 4
+Implement following concepts using CSS.
+(1) Use different selectors in CSS (class, id, name) to apply color, text-align, background of the html file.
+(2) Use different types of CSS with above example (Internal, External and Inline).
+(3) Use CSS animation properties by taking the appropriate example.
+(4) Demonstrate the concepts of local and global variables in CSS.
+(5) Use pseudo-class and pseudo-element concepts in CSS to design your web page.
+(6) Implement the problem statement by using media query : "Change style by increasing font size when the width gets larger than 600px.

@@ -1,0 +1,58 @@
+:root {
+    --color1: #DF7857;
+    --color2: #EDE9D5;
+}
+
+body {
+    font-size: large;
+    text-align: center;
+    background-color: var(--color2);
+}
+
+#para {
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        background-color: var(--color1);
+        color: var(--color2);
+    }
+    to {
+        color: var(--color1);
+        background-color: var(--color2);
+    }
+}
+
+.div {
+    animation-duration: 4s;
+    animation-name: new;
+}
+
+@keyframes new {
+    from {
+        background-color: var(--color2);
+        color: var(--color1);
+    }
+    to {
+        color: var(--color2);
+        background-color: var(--color1);
+    }
+}
+
+.disapper {
+    color: var(--color1);
+    padding: 10px;
+}
+
+.disapper:hover {
+    display: none;
+}
+
+@media only screen and (min-width:600px) {
+    body {
+        font-size: x-large;
+    }
+}

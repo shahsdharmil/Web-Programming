@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         :root {
+            --color1: #DF7857;
+            --color2: #EDE9D5;
+        }
+        
+        .div {
+            color: var(--color2);
+            background-color: var(--color1);
+            border-radius: 20px;
+        }
+        
+        #para {
+            color: var(--color1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <h1>CSS Practical</h1>
+    </div>
+    <p id="para" style="background-color:var(--color2) ;">This is an animated paragraph</p>
+    <div class="disapper">
+        <p>Hover over this lines to make it disapper</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="openChildWindowBtn">OPEN NEW WINDOW</button>
+    <button id="closeChildWindowBtn">CLOSE CHILD WINDOW</button>
+    <button id="closeMainWindowBtn">CLOSE MAIN WINDOW</button>
+    <script>
+        var childWindow;
+
+
+        // Open child window
+        document
+            .getElementById("openChildWindowBtn")
+            .addEventListener("click", function () {
+                childWindow = window.open(
+                    "https://www.example.com",
+                    "_blank",
+                    "width=400,height=400"
+                );
+            });
+
+
+        // Close child window
+        document
+            .getElementById("closeChildWindowBtn")
+            .addEventListener("click", function () {
+                if (childWindow ) {
+                    childWindow.close();
+                }
+            });
+
+
+        // Close main window
+        document
+            .getElementById("closeMainWindowBtn")
+            .addEventListener("click", function () {
+                window.close();
+            });
+    </script>
+
+</body>
+
+</html>

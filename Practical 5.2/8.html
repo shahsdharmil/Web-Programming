@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const myArray = [1, 2, 3, 4, 5];
+        myArray.push(6);
+        document.write("Original Array : " + myArray + "<br>");
+        document.write("Pushing 6 inside the array : " + myArray + "<br>");
+
+
+        myArray.pop();
+        document.write("Poping the first element from the array : " + myArray + "<br>");
+
+
+        const myString = myArray.join("-");
+        document.write(
+            "Converting the array into a string separated by a delimiter : " +
+            myString + "<br>"
+        );
+
+
+        const mySlicedArray = myArray.slice(2, 4);
+        document.write(
+            "Using the slice() method to get a portion of the original array : " +
+            mySlicedArray + "<br> <br>"
+        );
+
+
+        const myName = "John Doe";
+
+        document.write("Original String : " + myName + "<br>")
+
+        const upperCaseName = myName.toUpperCase();
+        document.write("Uppercaseing the name variable : " + upperCaseName + "<br>");
+
+
+        const lowerCaseName = myName.toLowerCase();
+        document.write("Lowercasing the name varaible : " + lowerCaseName + "<br>");
+
+
+        const replacedName = myName.replace("John", "Jane");
+        document.write(
+            "Using the replace() method to replace a portion of the string with another string : " +
+            replacedName + "<br>"
+        );
+
+    </script>
+</body>
+
+</html>

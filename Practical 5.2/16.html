@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Color Selector</h1>
+    <label for="background-color">Background Color</label>
+    <select id="background-color">
+        <option value="white">White</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
+    <label for="foreground-color">Foreground Color</label>
+    <select id="foreground-color">
+        <option value="black">Black</option>
+        <option value="white">White</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
+    <script>
+        var backgroundColorSelect =
+            document.getElementById("background-color");
+        var foregroundColorSelect =
+            document.getElementById("foreground-color");
+        backgroundColorSelect.addEventListener("change", function () {
+            document.body.style.backgroundColor =
+                backgroundColorSelect.value;
+        });
+        foregroundColorSelect.addEventListener("change", function () {
+            document.body.style.color = foregroundColorSelect.value;
+        });
+    </script>
+
+</body>
+
+</html>

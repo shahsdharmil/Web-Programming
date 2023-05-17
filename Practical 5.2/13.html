@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Visitor's Browser Details</h1>
+    <p><strong>Browser Name:</strong> <span id="browserName"></span></p>
+    <p>
+        <strong>Browser Version:</strong> <span id="browserVersion"></span>
+    </p>
+    <p><strong>User Agent:</strong> <span id="userAgent"></span></p>
+    <p>
+        <strong>Screen Resolution:</strong>
+        <span id="screenResolution"></span>
+    </p>
+    <script>
+        // Get browser name and version
+        var browserName = navigator.appName;
+        var browserVersion = navigator.appVersion;
+        // Get user agent (browser, version, OS)
+        var userAgent = navigator.userAgent;
+        // Get screen resolution
+        var screenWidth = screen.width;
+        var screenHeight = screen.height;
+        var screenResolution = screenWidth + " x " + screenHeight;
+        // Update HTML elements with details
+        document.getElementById("browserName").innerText = browserName;
+        document.getElementById("browserVersion").innerText =
+            browserVersion;
+        document.getElementById("userAgent").innerText = userAgent;
+        document.getElementById("screenResolution").innerText =
+            screenResolution;
+    </script>
+</body>
+
+</html>

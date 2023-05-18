@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Login Form Validation</h1>
+
+
+    <form>
+        <label for="userid">User ID (mobile number):</label>
+        <input type="text" id="userid" name="userid" pattern="[0-9]{10}" required /><br /><br />
+        <label for="password">Password (at least 8 characters with special symbol and one
+            uppercase letter):</label>
+        <input type="password" id="password" name="password"
+            pattern="^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9a-z])[0-9A-Za-z!@#$&*]{8,}$" required /><br /><br />
+        <button type="submit" onclick="validate()">Submit</button>
+    </form>
+
+
+    <script>
+        function validate() {
+            var useridField = document.getElementById("userid");
+            var passwordField = document.getElementById("password");
+
+
+            if (!useridField.checkValidity()) {
+                alert("Please enter a valid mobile number");
+                return false;
+            }
+            if (!passwordField.checkValidity()) {
+                alert(
+                    "Please enter a valid password (at least 8 characters with special symbol and one uppercase letter)"
+                );
+                return false;
+            }
+            alert("Form submitted successfully!");
+
+
+            return true;
+        }
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>

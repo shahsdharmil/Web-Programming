@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Copy Form Field Value</h1>
+
+
+    <form id="form1">
+        <label for="acc1">Account Number:</label>
+        <input type="text" id="txt" placeholder="Enter text to add option" />
+    </form>
+
+
+    <form id="form2" onsubmit="return false;">
+        <label for="select">Select Account:</label>
+        <select id="options">
+            <!-- <option value="c">C</option> -->
+        </select>
+        <br />
+        <br />
+        <button id="addbtn" onclick="insertOption()">Add Option</button>
+    </form>
+
+
+    <script>
+        function insertOption() {
+            const addBtn = document.querySelector("#addbtn");
+            const listbox = document.querySelector("#options");
+            const dropdown = document.querySelector("#txt");
+            const option = new Option(dropdown.value, dropdown.value);
+            console.log(dropdown.value);
+            listbox.add(option, undefined);
+            dropdown.value = "";
+            dropdown.focus();
+        }
+
+
+        insertOption();
+    </script>
+
+</body>
+
+</html>

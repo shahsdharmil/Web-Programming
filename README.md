@@ -11,6 +11,7 @@ Based on HTML4 Tags
 
 Asignment - 2
 Based on HTML Media & API
+- Demonstrate the use HTML media ()
 
 Practical - 1
 Basic HTML Tags

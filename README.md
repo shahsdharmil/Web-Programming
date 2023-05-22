@@ -12,6 +12,7 @@ Based on HTML4 Tags
 Asignment - 2
 Based on HTML Media & API
 - Demonstrate the use HTML media (audio,video,youtube,plug-ins)
+- Implement drag and drop functionality and geo location by HTML API.
 
 Practical - 1
 Basic HTML Tags

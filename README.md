@@ -35,3 +35,4 @@ Implement following concepts using CSS.
 Practical - 5.1
 1. Write a javascript program to display "hello world" using internal javascript and external javascript
 2. Write a javascript program to demo of local and global variables.
+3. Write a javascript program to demo alert box,conditional box and prompt box.

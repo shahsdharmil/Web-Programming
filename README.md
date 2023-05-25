@@ -30,7 +30,7 @@ Implement following concepts using CSS.
 - (3) Use CSS animation properties by taking the appropriate example.
 - (4) Demonstrate the concepts of local and global variables in CSS.
 - (5) Use pseudo-class and pseudo-element concepts in CSS to design your web page.
-(6) Implement the problem statement by using media query : "Change style by increasing font size when the width gets larger than 600px.
+- (6) Implement the problem statement by using media query : "Change style by increasing font size when the width gets larger than 600px.
 
 Practical - 5.1
 1. Write a javascript program to display "hello world" using internal javascript and external javascript

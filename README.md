@@ -18,7 +18,7 @@ Practical - 1
 - Basic HTML Tags
 
 Practical - 1.1 (a),(b)
-Html Tags
+- Html Tags
 
 Practical - 1.2
 Lists And Tables

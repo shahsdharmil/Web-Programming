@@ -21,7 +21,7 @@ Practical - 1.1 (a),(b)
 - Html Tags
 
 Practical - 1.2
-Lists And Tables
+- Lists And Tables
 
 Practical - 4
 Implement following concepts using CSS.

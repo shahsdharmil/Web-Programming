@@ -15,7 +15,7 @@ Based on HTML Media & API
 - Implement drag and drop functionality and geo location by HTML API.
 
 Practical - 1
-Basic HTML Tags
+- Basic HTML Tags
 
 Practical - 1.1 (a),(b)
 Html Tags

@@ -34,7 +34,7 @@ Implement following concepts using CSS.
 
 Practical - 5.1
 - 1. Write a javascript program to display "hello world" using internal javascript and external javascript
-2. Write a javascript program to demo of local and global variables.
+- 2. Write a javascript program to demo of local and global variables.
 3. Write a javascript program to demo alert box,conditional box and prompt box.
 4. Write a javascript program to take user input as integer from user and find out that number is prime or not.
 5. Write a javascript program to calculate of a person age. Take user's birthdate from user and current date from system.

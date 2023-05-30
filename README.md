@@ -38,6 +38,8 @@ Practical - 5.1
 - 3. Write a javascript program to demo alert box,conditional box and prompt box.
 - 4. Write a javascript program to take user input as integer from user and find out that number is prime or not.
 - 5. Write a javascript program to calculate of a person age. Take user's birthdate from user and current date from system.
-6. Write a javascript program to print Fibonacci series using function.
+- 6. Write a javascript program to print Fibonacci series using function.
 
 Practical - 5.2
+- 7. Write a javascript function to find factorial of a given number and return the answer.
+- 

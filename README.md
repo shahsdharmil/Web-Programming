@@ -42,4 +42,4 @@ Practical - 5.1
 
 Practical - 5.2
 - 7. Write a javascript function to find factorial of a given number and return the answer.
-- 
+8. Create different variables of Array and string objects. And use all the functions related to that.

@@ -33,14 +33,15 @@ Implement following concepts using CSS.
 - (6) Implement the problem statement by using media query : "Change style by increasing font size when the width gets larger than 600px.
 
 Practical - 5.1
-- 1. Write a javascript program to display "hello world" using internal javascript and external javascript
-- 2. Write a javascript program to demo of local and global variables.
-- 3. Write a javascript program to demo alert box,conditional box and prompt box.
-- 4. Write a javascript program to take user input as integer from user and find out that number is prime or not.
-- 5. Write a javascript program to calculate of a person age. Take user's birthdate from user and current date from system.
-- 6. Write a javascript program to print Fibonacci series using function.
+1. Write a javascript program to display "hello world" using internal javascript and external javascript
+2. Write a javascript program to demo of local and global variables.
+3. Write a javascript program to demo alert box,conditional box and prompt box.
+4. Write a javascript program to take user input as integer from user and find out that number is prime or not.
+5. Write a javascript program to calculate of a person age. Take user's birthdate from user and current date from system.
+6. Write a javascript program to print Fibonacci series using function.
 
 Practical - 5.2
-- 7. Write a javascript function to find factorial of a given number and return the answer.
+7. Write a javascript function to find factorial of a given number and return the answer.
 8. Create different variables of Array and string objects. And use all the functions related to that.
 9. Create javascript that scroll some message in Status window of browser.
+10. Write a javascript program to change the background color of web page repeatedly.

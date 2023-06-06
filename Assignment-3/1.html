@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Login and Registration Page</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login and Registration Page</h1>
+
+      <form id="login-form" class="form-group">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <input type="submit" value="Login" />
+        <p class="switch-form">
+          Don't have an account?
+          <a href="#" onclick="showRegisterForm()">Register here</a>
+        </p>
+      </form>
+
+      <form id="register-form" class="form-group">
+        <label for="fullname">Full Name:</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Enter your full name"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+
+        <label for="new-username">Username:</label>
+        <input
+          type="text"
+          id="new-username"
+          name="new-username"
+          placeholder="Choose a username"
+          required
+        />
+
+        <label for="new-password">Password:</label>
+        <input
+          type="password"
+          id="new-password"
+          name="new-password"
+          placeholder="Choose a password"
+          required
+        />
+
+        <input type="submit" value="Register" />
+        <p class="switch-form">
+          Already have an account?
+          <a href="#" onclick="showLoginForm()">Login here</a>
+        </p>
+      </form>
+    </div>
+
+    <script>
+      function showRegisterForm() {
+        document.getElementById("login-form").style.display = "none";
+        document.getElementById("register-form").style.display = "block";
+      }
+
+      function showLoginForm() {
+        document.getElementById("login-form").style.display = "block";
+        document.getElementById("register-form").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

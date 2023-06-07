@@ -47,3 +47,4 @@ Practical - 5.2
 10. Write a javascript program to change the background color of web page repeatedly.
 11. Create a webpage containing one button. clicking on this button change the size of the window & position.
 12. Put three button “OPEN NEW WINDOW”,”CLOSE CHILD WINDOW”,”CLOSE MAIN WINDOW” in main HTML page, on click of first button, execute some JavaScript code that will open one child window. Clicking on second button child window will close and third button main html page will close.
+13. Write a javascript to get details from visitors browser.

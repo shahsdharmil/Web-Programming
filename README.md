@@ -49,4 +49,4 @@ Practical - 5.2
 12. Put three button “OPEN NEW WINDOW”,”CLOSE CHILD WINDOW”,”CLOSE MAIN WINDOW” in main HTML page, on click of first button, execute some JavaScript code that will open one child window. Clicking on second button child window will close and third button main html page will close.
 13. Write a javascript to get details from visitors browser.
 14. Write a javascript program to rotate images.
-15. 
+15. Write a javascript program to zoom out the image. use mouseover event for the same. 

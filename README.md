@@ -50,3 +50,4 @@ Practical - 5.2
 13. Write a javascript to get details from visitors browser.
 14. Write a javascript program to rotate images.
 15. Write a javascript program to zoom out the image. use mouseover event for the same. 
+16. Create a page that includes a select object to change the background color of the current page.

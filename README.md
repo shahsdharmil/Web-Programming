@@ -52,3 +52,6 @@ Practical - 5.2
 15. Write a javascript program to zoom out the image. use mouseover event for the same. 
 16. Create a page that includes a select object to change the background color of the current page.
 The property that needs to be set is bgColor,Similar things for foreground color.
+17. A document contains two forms, named form1 and form2. In the form1 is a field named
+acc1(type=text) and form2 contains field select(type=text). Write a program that will copy
+values of acc1 to select .

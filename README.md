@@ -58,3 +58,4 @@ values of acc1 to select .
 18. Create a webpage contains two textbox as userid and password and one submit button. Check
 for validation for userid as mobile number and password should contains minimum 8
 character,with special symbol and one upper case letter.
+19. Perform javascript validation for HTML assignment 1: Question No:5

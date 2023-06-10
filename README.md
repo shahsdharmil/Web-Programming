@@ -55,3 +55,5 @@ The property that needs to be set is bgColor,Similar things for foreground color
 17. A document contains two forms, named form1 and form2. In the form1 is a field named
 acc1(type=text) and form2 contains field select(type=text). Write a program that will copy
 values of acc1 to select .
+18. Create a webpage contains two textbox as userid and password and one submit button. Check
+for validation for userid as mobile number and password sh

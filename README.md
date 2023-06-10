@@ -56,4 +56,5 @@ The property that needs to be set is bgColor,Similar things for foreground color
 acc1(type=text) and form2 contains field select(type=text). Write a program that will copy
 values of acc1 to select .
 18. Create a webpage contains two textbox as userid and password and one submit button. Check
-for validation for userid as mobile number and password sh
+for validation for userid as mobile number and password should contains minimum 8
+character,with special symbol and one upper case letter.

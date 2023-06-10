@@ -41,7 +41,7 @@ Practical - 5.1
 6. Write a javascript program to print Fibonacci series using function.
 
 Practical - 5.2
-7. Write a javascript function to find factorial of a given number and return the answer.
+- 7. Write a javascript function to find factorial of a given number and return the answer.
 8. Create different variables of Array and string objects. And use all the functions related to that.
 9. Create javascript that scroll some message in Status window of browser.
 10. Write a javascript program to change the background color of web page repeatedly.

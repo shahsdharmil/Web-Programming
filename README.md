@@ -59,3 +59,6 @@ values of acc1 to select .
 for validation for userid as mobile number and password should contains minimum 8
 character,with special symbol and one upper case letter.
 19. Perform javascript validation for HTML assignment 1: Question No:5
+
+Pracical - 6.1
+1) Write Php Script to print Fibonacci series.

@@ -62,3 +62,4 @@ character,with special symbol and one upper case letter.
 
 Pracical - 6.1
 1) Write PHP Script to print Fibonacci series.
+2) Write PHP Script to find maximum number out of three given numbers.

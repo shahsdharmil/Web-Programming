@@ -61,4 +61,4 @@ character,with special symbol and one upper case letter.
 19. Perform javascript validation for HTML assignment 1: Question No:5
 
 Pracical - 6.1
-1) Write Php Script to print Fibonacci series.
+1) Write PHP Script to print Fibonacci series.

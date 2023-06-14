@@ -66,3 +66,4 @@ Pracical - 6.1
 3) 3) Write a PHP program to compute the sum of the prime numbers less than 100.
 4) Find the Transpose of a matrix, Multiplication of two matrices and Addition of two matrices.
 5) Write PHP script Using user defined function.
+6) Create form using text box, check box, radio button, select, submit button. And display user inserted value in new PHP page.

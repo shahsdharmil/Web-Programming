@@ -64,3 +64,5 @@ Pracical - 6.1
 1) Write PHP Script to print Fibonacci series.
 2) Write PHP Script to find maximum number out of three given numbers.
 3) 3) Write a PHP program to compute the sum of the prime numbers less than 100.
+4) Find the Transpose of a matrix, Multiplication of two matrices and Addition of two matrices.
+5) 

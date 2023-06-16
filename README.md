@@ -71,3 +71,4 @@ Pracical - 6.1
 Practical - 6-2 
 PHP File & Session Management
 1) Write PHP Script to display content of file and display total number of lines, words and characters.
+2) Write a Program to upload image with extension gif or jpeg having size less than 200kB.

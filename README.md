@@ -69,7 +69,7 @@ Pracical - 6.1
 6) Create form using text box, check box, radio button, select, submit button. And display user inserted value in new PHP page.
 
 Practical - 6-2 
-PHP File & Session Management
+- PHP File & Session Management
 1) Write PHP Script to display content of file and display total number of lines, words and characters.
 2) Write a Program to upload image with extension gif or jpeg having size less than 200kB.
 3) A web application that takes a name as input and on submit it shows a hello page where name is taken from the request. It shows the start time at the right top corner of the page and provides a logout button. On clicking this button, it should show a logout page with Thank You message with the duration of usage (hint: Use session to store name and time).

@@ -61,6 +61,7 @@ character,with special symbol and one upper case letter.
 19. Perform javascript validation for HTML assignment 1: Question No:5
 
 Pracical - 6.1
+- PHP Basics
 1) Write PHP Script to print Fibonacci series.
 2) Write PHP Script to find maximum number out of three given numbers.
 3) 3) Write a PHP program to compute the sum of the prime numbers less than 100.

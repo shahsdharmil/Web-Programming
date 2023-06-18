@@ -78,3 +78,5 @@ Practical - 6.2
 5) Write a program to keep track of how many times a visitor has loaded the page.
 
 Practical - 6.3
+- PHP Database
+1) Understand the PHP interface, Study PHPMyAdmin and Perform following: 

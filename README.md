@@ -80,3 +80,4 @@ Practical - 6.2
 Practical - 6.3
 - PHP Database
 1) Understand the PHP interface, Study PHPMyAdmin and Perform following: 
+- Write a PHP script to create a database StudentDB.

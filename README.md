@@ -83,3 +83,4 @@ Practical - 6.3
 - Write a PHP script to create a database StudentDB.
 - Write a PHP script to list all the databases available in mysql.
 - Write a PHP script to list all the tables available in a particular database.
+- Write a PHP script to create a table student(Enroll_no,name,age,marks) in the database StudentDB.

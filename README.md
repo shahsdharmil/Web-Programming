@@ -89,4 +89,4 @@ Practical - 6.3
 - Write a PHP script to delete all rows from student table whose Enroll_no numbers are between 1 and 3.
 - Write a PHP script to display all rows from student table whose marks are >=35.
 - Write a PHP script to update row from the table student whose age is 30.
-Write a PHP script to drop the table student and drop the database StudentDB.
+- Write a PHP script to drop the table student and drop the database StudentDB.

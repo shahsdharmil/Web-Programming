@@ -86,3 +86,4 @@ Practical - 6.3
 - Write a PHP script to create a table student(Enroll_no,name,age,marks) in the database StudentDB.
 - Write a PHP script to insert a row into the table student. The values to be inserted are taken from a HTML page.
 - Write a PHP script to list all the records in the student table in tabular format.
+- Write a PHP script to delete all rows from student table whose Enroll_no numbers are between 1 and 3.

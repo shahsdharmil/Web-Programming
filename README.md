@@ -10,7 +10,7 @@ Assignment - 1
 1.5 - Forms
 
 Asignment - 2
-Based on HTML Media & API
+- Based on HTML Media & API
 - Demonstrate the use HTML media (audio,video,youtube,plug-ins)
 - Implement drag and drop functionality and geo location by HTML API.
 

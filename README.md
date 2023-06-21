@@ -24,7 +24,7 @@ Practical - 1.2
 - Lists And Tables
 
 Practical - 4
-Implement following concepts using CSS.
+- Implement following concepts using CSS.
 - (1) Use different selectors in CSS (class, id, name) to apply color, text-align, background of the html file.
 - (2) Use different types of CSS with above example (Internal, External and Inline).
 - (3) Use CSS animation properties by taking the appropriate example.

@@ -1,5 +1,5 @@
 # Web-Programming
-Web-Programming codes for Sem-6
+Web-Programming codes for Semester-6
 
 Assignment - 1 
 - Based on HTML4 Tags

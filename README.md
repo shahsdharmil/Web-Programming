@@ -1,5 +1,5 @@
 # Web-Programming
-Web-Programming code for Semester - 6
+Web-Programming code for Semester - 6.
 
 Assignment - 1 
 - Based on HTML4 Tags

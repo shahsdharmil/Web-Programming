@@ -92,3 +92,4 @@ Practical - 6.3
 - Write a PHP script to drop the table student and drop the database StudentDB.
 
 Project
+- Topic - Expense Manager Project 
